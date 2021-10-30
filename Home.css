@@ -1,0 +1,877 @@
+body {
+box-sizing: border-box;
+font-family: "Arial";
+background-color: rgb(227, 238, 243);
+margin: 0;
+padding: 0;
+}
+
+
+.main-nav {
+    margin: 0 auto;
+    height: 80px;
+    background: #159095;
+    /* background: #2c3e50; */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    
+}
+
+.logo {
+    padding: 5px 5px 5PX 5px;
+    width: 120px;
+    height: auto;
+}
+
+.logo img {
+    height: 80px;
+    width: 80px;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 15px;
+    float: right;
+    margin-right: 20px;
+    /* border-bottom: 2px solid orange; */
+}
+/* nav ul a {
+    border-bottom: 2px solid orange;
+} */
+nav ul li {
+    background: #159095;
+    /* background: rgb(83, 191, 241); */
+    /* background: #2c3e50; */
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a {
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 15px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid orange;
+}
+nav ul li a:hover {
+    border-bottom: 3px solid orange;
+    background: #243342;
+
+}
+nav ul ul {
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul ul li {
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+/* nav ul li a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: orange;
+    height: 2px;
+    box-sizing: border-box;
+    width: 100px;
+    /* padding-left: 20px; 
+} */
+
+.first {
+    /* background-image: url("./assets/coronamaskedlady.jpg"); */
+    /* position: relative;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;  */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url("./assets/coronamaskedlady.jpg");
+    height: 90vh;
+
+}
+
+
+
+/* #logo {
+    float: left;
+    margin-right: auto;
+}
+.logo img {
+    height: 80px;
+    width: 80px;
+}
+li, a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 2%;
+}
+.menu-nav {
+    list-style: none;
+    cursor: pointer;
+    
+}
+.menu-nav li {
+    display: inline-block;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 20px;
+}
+.menu-nav li a {
+    transition: all 0.3s ease 0s;
+}
+.menu-nav li a:hover {
+    color: blueviolet;
+} */
+
+
+
+
+
+
+
+/* .menu-nav {
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+    float: right;
+} */
+
+
+
+/* header {
+    display: flex;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    padding: 30px 70px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    
+
+} */
+
+
+
+
+
+
+
+
+
+/* #main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff; 
+
+} */
+
+/* nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+} */
+/* nav ul li a {
+    line-height: 80px;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.7);
+} */
+/* .first-content {
+    width: 100%;
+    height: 100vh;
+    background: url("/assets/coronamaskedlady.jpg");
+    background-size: cover;
+    background-position: center;
+} */
+
+
+
+/* .menu-item {
+    display: inline;
+    list-style: none;
+    margin-right: 10px;
+} */
+
+/* .navigation ul {
+    display: inline-flex;
+    
+}
+.navigation ul li {
+    border: 1px solid #fff;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+} */
+/* .sub-menu {
+    float: left;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+} */
+
+/* header .logo {
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 5px;
+    color: white;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+} */
+
+/* header .navigation a {
+    color: #000;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 2px 9px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-flex;
+    transition: 0.3s;
+    transition-property: background;
+}
+header .navigation a:hover {
+    background: #fff;
+} */
+
+ /* #first {
+    background-image: url("./assets/coronamaskedlady.jpg");
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px; 
+
+} */
+
+/*.first-content {
+    
+    max-width: 500px;
+    margin: 70px 150px;
+    background-size: cover;
+} */ 
+
+.first-content h5 {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+}
+.first-content h1 {
+    color: rgb(5, 22, 77);
+    font-size: 100px;
+    letter-spacing: 2px;
+    line-height: 100px;
+    /* padding: 10px 10px; */
+    margin-bottom: 30px;
+    font-weight: 700;
+    padding-left: 50px;
+}
+.first-content h1 span {
+    color: #fff;
+    padding-left: 500px;
+}
+.first-content p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+
+/* main part styling */
+.main-content {
+    /* border: 5px solid rgb(9, 27, 87); */
+    text-align: justify;
+    justify-content: center;
+    width: 100%;
+    
+    
+}
+.main-content h2 {
+    color: rgb(9, 27, 87);
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10;
+    background-color: #f9fbfc; 
+
+    /* border: 5px solid rgb(9, 27, 87); 
+    border-top: 0;
+    border-left: 0;
+    border-right: 0; */
+
+}
+
+/* .main-content ul {
+    font-size: 30px;
+    line-height: 100px;
+    letter-spacing: 4px;
+    display: inline-flex;
+
+} 
+.main-content ul li {
+    border: 1px solid #fff;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+
+} */
+.main-content a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(9, 27, 87);
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.doc-cons-img {
+    background-image: url("./new\ assets/usman-yousaf-atn5XAZtRYE-unsplash.jpg");
+    background-position: center;
+    background-size: cover; 
+    height: 50vh;
+    width: 50vw;
+    float: left;
+    margin-bottom: 40px;
+}
+.doc-cons {
+    float: right;
+    text-align: center;
+    justify-content: center;
+    padding-top: 130px;
+    padding-right: 40px;
+}
+
+.products-img {
+    background-image: url("./assets/maskedladycounter.jpg");
+    background-position: center;
+    background-size: cover; 
+    height: 50vh;
+    width: 50vw;
+    float: right;
+    margin-bottom: 40px;
+}
+.products {
+    float: left;
+    text-align: center;
+    justify-content: center;
+    padding-top: 130px;
+    padding-left: 130px;
+}
+.h-service-img {
+    background-image: url("./assets/hospitalbuildingblue.jpg");
+    background-position: center;
+    background-size: cover; 
+    height: 50vh;
+    width: 50vw;
+    float: left;
+    margin-bottom: 40px;
+}
+.h-service {
+    float: right;
+    text-align: center;
+    justify-content: center;
+    padding-top: 130px;
+    padding-right: 100px;
+}
+.emergency-img {
+    background-image: url("./assets/emergencywriteup.jpg");
+    background-position: center;
+    background-size: cover; 
+    height: 50vh;
+    width: 50vw;
+    float: right;
+    margin-bottom: 40px;
+}
+.emergency {
+    float: left;
+    text-align: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-left: 230px;
+}
+
+
+.testimonial {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./assets/vitbeffervescent.jpg");
+    height: 80vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    color: rgb(9, 27, 87);
+    font-size: 30px;
+    letter-spacing: 4px;
+    line-height: 100px;
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    justify-content: center; 
+}
+
+form {
+    
+    /* border: 1px solid rgb(18, 65, 219); */
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+form h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    /* color: rgb(9, 27, 87); */
+    font-size: 30px;
+    letter-spacing: 4px;
+    line-height: 100px;
+    margin-bottom: 15px;
+    font-weight: 800;
+
+}
+form p {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+form label {
+    text-align: center;
+    letter-spacing: 3px;
+}
+form input {
+    border: 2px solid orange);
+}
+.form-place {
+    /* background-color: rgb(83, 191, 241); */
+    background-color: transparent;
+    border: 3px solid orange;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+#submit {
+    color: #000;
+    background: orange;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+}
+#submit:hover {
+    background: #159095;
+}
+
+
+
+/* Styles for other pages */
+/* .other-pages {
+    text-align: center;
+    padding-top: 50px;
+    background-image: url("./assets/maskedteddy.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+} */
+
+
+
+/* For Footer */
+
+.footer {
+    background-color: #159095;
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+
+}
+.f-container {
+    max-width: 1170px;
+    margin-right: 2px;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+
+} 
+.f-row {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.f-col {
+    width: 20.5%;
+    /* padding: 0 15px; */
+    
+
+}
+.f-col ul {
+    list-style: none; 
+}
+.f-col ul li :before {
+    content: " \25AA ";
+    color: orange;
+    font-weight: bold;
+    display: inline-block;
+    height: 10px;
+    width: 1em;
+    margin-left: -2em;
+}
+
+.f-col h4 {
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-weight: 500;
+    position: relative;
+    padding-left: 10px;
+    justify-content: center;
+    list-style: none;
+}
+.company {
+    text-decoration-line: underline;
+    text-underline-offset: 11px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: orange;
+}
+.help {
+    text-decoration-line: underline;
+    text-underline-offset: 11px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: orange;
+}
+.f-shop {
+    text-decoration-line: underline;
+    text-underline-offset: 11px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: orange;
+}
+.h-blog {
+    text-decoration-line: underline;
+    text-underline-offset: 11px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: orange;
+}
+.f-follow {
+    text-decoration-line: underline;
+    text-underline-offset: 11px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: orange;
+}
+
+/* .f-col h4::before {
+    content: '';
+    position: absolute;
+    left: 10;
+    bottom: -10px;
+    background-color: orange;
+    height: 2px;
+    box-sizing: border-box;
+    width: 60px;
+    /* padding-left: 20px; 
+} */
+/* .f-col ul li:not(:last-child){
+    margin-bottom: 10px;
+} */
+.f-col ul li {
+    padding-left: 3px;
+    margin-bottom: 10px;
+}
+.f-col ul li a {
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    /* color: orange; */
+    display: block;
+    transition: all 0.3s ease;
+    margin-left:  0px;
+    padding-bottom: 7px;
+    padding-top: 0;
+}
+.f-col ul li a:hover {
+    color: #fff;
+    padding-left: 10px;
+}
+.f-col .social-links a {
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+}
+.f-col .social-links a:hover {
+    color: orange;
+    background-color: #fff;
+}
+.f-logo {
+    font-size: 14px;
+    text-align: center;
+}
+.f-logo img {
+    height: 40px;
+    width: 70px;
+    margin: 0px;
+}
+.f-sup {
+    font-size: 6px;
+    color: #fff;
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+
+
+
+/* For Health Shop */
+.h-shop-h1 {
+    text-align: center;
+    line-height: 10px;
+    letter-spacing: 15px;
+}
+.p-body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    background: cadetblue;
+    background: url("./assets/pillspour.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.p-container {
+    position: relative;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1em));
+    grid-gap: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.p-card {
+    width: 100%;
+    margin-right: 50px;
+    background: #fff;
+    border: 3px solid #159095;
+    border-radius: 20px;
+}
+.p-img {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.p-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+    /* transform-origin: left; */
+}
+.p-card:hover .p-img img {
+    transform: scale(1.5);
+}
+.p-content {
+    padding: 10px;
+    border-top: 2px solid #159095;
+}
+.p-name h5 {
+    font-size: 15px;
+    font-weight: 500;
+    color: orange;
+    margin: 5px 0;
+}
+
+.p-cost h5 {
+    font-size: 10px;
+    font-weight: 500;
+    color: black;
+
+}
+
+
+/* For About Page */
+.about-h1 {
+    text-align: center;
+    line-height: 10px;
+    letter-spacing: 15px;
+}
+
+.other-pages p {
+    letter-spacing: 2px;
+    line-height: 40px;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: justify;
+    background: url(./assets/maskedteddy.jpg);
+    
+}
+
+/* For App page */
+.app-h1 {
+    text-align: center;
+    line-height: 10px;
+    letter-spacing: 13px;
+}
+.other-pages li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: rgb(224, 168, 69);
+}
+.other-pages li a:hover {
+    color: #159095;
+}
+
+/* For Emergency Page */
+.emergency-h1 {
+    text-align: center;
+    line-height: 10px;
+    letter-spacing: 12px;
+
+}
+
+
+
+
+
+
+/* Responsiveness */
+@media (max-width: 767px){
+    .main-nav {
+        width: 100%;
+
+    }
+    .first {
+        width: 50%;
+    }
+    .doc-cons {
+        text-align: center;
+        float: right;
+    }
+    .products {
+        float: left;
+        text-align: center;
+    }
+    .h-service {
+        float: right;
+        text-align: center;
+    }
+    .emergency {
+        float: left;
+        text-align: center;
+    }
+    .f-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 574px){
+    .main-nav {
+        width: 100%;
+    }
+    .first {
+        width: 100%;
+    }
+    .doc-cons {
+        text-align: center;
+        float: right
+    }
+    .products {
+        float: left;
+        text-align: center;
+    }
+    .h-service {
+        float: right;
+        text-align: center;
+    }
+    .emergency {
+        float: left;
+        text-align: center;
+    }
+    .f-col {
+        width: 100%;
+        margin-right: 10px;
+       
+    }
+}
+
+
+
+
